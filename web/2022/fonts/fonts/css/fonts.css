@@ -1,0 +1,49 @@
+.all{
+	padding: 100px 50px 100px 450px;
+	background: url('../img/nature.jpg') center/100% no-repeat fixed ;
+}
+.text{
+	font-size: 50px;
+	color: white;
+	font-family: 'Noto Naskh Arabic', serif;
+	color: black;
+	text-align: center;
+	 
+  
+	background: linear-gradient(45deg, blue, yellow);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+.header{
+	 
+	color: black;
+	text-align: center;
+	font-size: 50px;
+  
+	background: linear-gradient(45deg, blue, yellow);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.div_img{
+	position: absolute;
+	top: 10;
+	left: 1230;
+}
+.img{
+	border: 10px solid rgb(106, 102, 102);
+	border-radius: 50px;
+}
+.text{
+	 line-height: 60px;
+}
+.author{
+	text-align: right;
+	font-size: 25px;
+}

@@ -1,0 +1,69 @@
+body{
+	background:  url('../img/kotugoroshko.jpg')  1100px 500px/30% no-repeat,url('../img/вовчик.jpg') 1000px 50px/30% no-repeat,url('../img/FairyTale.jpg') 100% center no-repeat fixed;
+}
+h1{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 70px;
+	text-align: center;
+	margin: 50px 0 0 0;
+    color: blue;
+	font-style: italic;
+}
+.text{
+	margin: 0 400px 0 400px;
+	font-size: 50px;
+	 
+}
+.text::first-letter{
+	font-size: 70;
+	color: red;
+}
+.img{
+	margin: 20px;
+	border-radius: 50% ;
+}
+
+.GoodEvening{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 20px;
+	color: blue;
+	font-weight: 700;	 
+}
+.img2{
+	border-radius: 50%;
+	margin: 50px;
+}
+ 
+.GoodEvening{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: blue;
+	 
+}
+.end{
+	text-align: right;
+	font-size: 50px;
+	margin: 0 250px 0 0;
+	 
+}
+
+.button {
+	margin: 0 0 0 1200px;
+	font-size: 30px;
+	border: 10px solid rgb(72, 204, 72);
+	width: 250px;
+	border-radius: 50px;
+	background-color: rgb(72, 204, 72);
+	color: white;
+  }
+  .button:hover {
+	background-color: green;
+	border: 10px solid green;
+  }
+  
+  .button:active {
+	background-color: gray;
+	border: 10px solid gray;
+  }

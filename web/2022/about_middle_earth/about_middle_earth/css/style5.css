@@ -1,0 +1,70 @@
+body {
+  padding: 100px 0 0 200px;
+}
+.header {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 50px;
+}
+.AboutMiddleEarth {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+li {
+  width: 300px;
+}
+
+li:hover {
+  color: red;
+}
+
+li:nth-child(1) {
+  font-weight: 700;
+}
+
+li:nth-child(1)::first-letter {
+	font-size: 140px;
+	color: chartreuse;
+}
+
+
+li:nth-child(2) {
+  font-style: italic;
+}
+li:nth-child(3) {
+  text-transform: uppercase;
+}
+li:nth-child(4) {
+  text-decoration: underline;
+}
+li:nth-child(5) {
+  text-decoration: underline;
+}
+.button {
+  margin: 50px 0 0 400px;
+  font-size: 30px;
+  border: 10px solid rgb(72, 204, 72);
+  width: 170px;
+  border-radius: 50px;
+  background-color: rgb(72, 204, 72);
+  color: white;
+}
+.button:hover {
+  background-color: green;
+  border: 10px solid green;
+}
+
+.button:active {
+  background-color: gray;
+  border: 10px solid gray;
+}
+
+.tex {
+  margin: 50px 0 0 500px;
+  border: 1px solid blue;
+}
+.tex:focus {
+  border: 2px solid blue;
+  box-shadow: 0 0 5px 0 blue;
+}
