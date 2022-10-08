@@ -1,0 +1,28 @@
+.nav_minas-tirith-section{
+    color: royalblue;
+}
+
+.nav_minas-tirith-section_title{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px 0 40px 0;
+    text-decoration: underline;
+}
+.nav_minas-tirith-section_history{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    .nav_minas-tirith-section_history_text_title_li{
+        margin: 0 0 20px 0;
+        font-size: 40px;
+        text-align: center;
+        
+    }
+ 
+    .nav_minas-tirith-section_history_text_li{
+         font-size: 20px;
+         max-width: 500px;
+          
+    }
+}

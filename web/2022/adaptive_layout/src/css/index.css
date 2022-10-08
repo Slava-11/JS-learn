@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.header_flex {
+  height: 100px;
+  padding: 25px;
+  background-color: rgb(78, 195, 183);
+}
+.header_flex .header_flex_elements {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header_flex .header_flex_circle {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(21, 122, 117);
+}
+.header_flex .header_flex_ul li {
+  width: 100px;
+  height: 25px;
+  background-color: rgb(214, 214, 66);
+  float: left;
+  margin: 15px 0 0 10px;
+}
+
+.body_area {
+  height: 1000px;
+}
+
+.body_area_flex {
+  margin: 100px;
+}
+.body_area_flex .body_area_flex_elements {
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.body_area_flex .column1 .img {
+  padding: 20px;
+  max-width: 100%;
+  height: 100px;
+  width: 200px;
+  background-color: rgb(78, 195, 183);
+}
+.body_area_flex .column1 .text {
+  height: 350px;
+  width: 200px;
+  padding: 20px;
+  background-color: rgb(78, 195, 183);
+  color: white;
+  font-size: 20px;
+}
+
+.column2 {
+  padding: 20px 0 0 0;
+}
+.column2 .img {
+  padding: 20px;
+  max-width: 100%;
+  height: 100px;
+  width: 300px;
+  background-color: rgb(78, 195, 183);
+}
+.column2 .text {
+  height: 350px;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(78, 195, 183);
+  color: white;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .body_area {
+    max-width: 970;
+  }
+}
+@media (max-width: 992px) {
+  .body_area {
+    max-width: 750;
+  }
+}
+@media (max-width: 767px) {
+  .body_area {
+    max-width: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

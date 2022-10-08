@@ -1,0 +1,30 @@
+.nav_aragorm-section {
+  color: royalblue;
+}
+
+.nav_aragorm-section_title {
+  text-align: center;
+  font-size: 50px;
+  margin: 50px 0 40px 0;
+  text-decoration: underline;
+}
+
+.nav_aragorm-section_king {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  height: 404px;
+}
+
+.nav_aragorm-section_king_text .nav_aragorm-section_king_text_title_li {
+  margin: 0 0 20px 0;
+  font-size: 40px;
+  text-align: center;
+}
+.nav_aragorm-section_king_text .nav_aragorm-section_king_text_li {
+  max-width: 900px;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=nav_aragorm-section.css.map */
