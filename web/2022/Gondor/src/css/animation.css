@@ -1,0 +1,58 @@
+.animation .animation_title {
+  text-align: center;
+  font-size: 50px;
+  margin: 50px 0 40px 0;
+  text-decoration: underline;
+  color: royalblue;
+}
+.animation .animation_upper_circle_li {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: relative;
+  animation-name: circle;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes circle {
+  0% {
+    left: 0%;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  100% {
+    left: 500px;
+  }
+}
+
+.animation_lower_circle_li {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: relative;
+  animation-name: circle2;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin: 0 0 0 500px;
+}
+
+@keyframes circle2 {
+  0% {
+    right: 0%;
+  }
+  50% {
+    border-radius: 0%;
+  }
+  100% {
+    right: 500px;
+  }
+}
+
+/*# sourceMappingURL=animation.css.map */

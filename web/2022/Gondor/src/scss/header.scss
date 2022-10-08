@@ -1,0 +1,34 @@
+.header{
+    height: 150px;
+    background-color: aqua;
+}
+.header_title{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+     
+    .img_avatar_tree{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    .header_title_list{
+        .header_title_list_li{
+            float: left;
+            margin: 50px 0 0 10px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 20px;
+            color: royalblue;
+            font-size: 15px;
+            transition-duration: 2s;
+            transition-property: all;
+            &:hover{
+                color: white;
+                background:linear-gradient(120deg, blue, yellow)
+            }
+        }
+    }
+}
