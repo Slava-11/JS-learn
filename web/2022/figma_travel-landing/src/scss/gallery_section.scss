@@ -1,0 +1,91 @@
+.gallery{
+    max-width: 1264px;
+    margin: 131px 0 0 90px;
+    display: flex;
+    justify-content: space-between;
+    .gallery_title_button{
+        color: #006DFE;
+    }
+}
+.gallery_title{
+    font-size: 35px;
+    color: #102746;
+}
+.gallery_photos{
+    max-width: 1264px;
+    min-height: 735px;
+    margin: 46px 89px 0 89px;
+    .gallery_photos_container_1{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 619px 635px;
+        grid-template-rows: 354px ;
+         
+    }
+    .container_photo_mount{
+        background: url('../img/mount_fuji.png') 00/100% no-repeat;
+        .photo_mount{
+            font-size: 50px;
+            color: white;
+            background-color: #15182466 ;
+            padding: 267px 0 0 29px;
+            min-height: 354px;
+            min-width: 619px ;
+        }
+    }
+        .container_photo_kioto{
+        background: url('../img/kioto.png') 00/100% no-repeat;
+    }
+    .photo_kioto{
+
+        padding: 267px 0 0 29px;
+        font-size: 50px;
+        color: white;
+        min-height: 354px;
+        min-width: 635px ;
+        background-color: #15182466;
+    }
+    .gallery_photos_container_2{
+        margin: 10px 0 0 0;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 415px 415px 414px;
+        grid-template-rows: 283px ;
+    }
+    .container_photo_tokyo{
+        background: url('../img/tokyo.png') 00/100% no-repeat;
+    }
+    .photo_tokyo{
+ 
+        padding: 196px 0 0 32px;
+        font-size: 50px;
+        color: white;
+        min-height: 283px;
+        min-width: 415px ;
+        background-color: #15182466;
+    }
+    .container_photo_niigata{
+        background: url('../img/niigata.png') 00/100% no-repeat;
+    }
+    .photo_niigata{
+        min-height: 283px;
+        min-width: 415px ;
+        background-color: #15182466;
+
+        padding: 196px 0 0 32px;
+        font-size: 50px;
+        color: white;
+    }
+    .container_photo_sapporo{
+        background: url('../img/sapporo.png') 00/100% no-repeat;
+    }
+    .photo_sapporo{
+        min-height: 283px;
+        min-width: 414px ;
+        background-color: #15182466;
+        padding: 196px 0 0 32px;
+        font-size: 50px;
+        color: white;
+    }
+}
+ 

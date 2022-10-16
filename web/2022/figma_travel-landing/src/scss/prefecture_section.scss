@@ -1,0 +1,46 @@
+.prefecture_section_text_tottori{
+    min-width: 1271px;
+    min-height: 354px;
+    margin: 131px 89px 0 89px;
+    display: flex;
+    justify-content: space-between;
+    .title_tottori{
+        padding: 26px 0 85px 0;
+        font-size: 30px;
+        color: #102746;
+    }
+    .text_tottori{
+        max-width: 519px;
+        font-size: 16px;
+        padding: 0 0 58px 0;
+    }
+    .button_tottori{
+        font-size: 16px;
+        color: #006DFE;
+    }
+    
+}
+
+.prefecture_section_text_arashiyama{
+    min-width: 1271px;
+    min-height: 354px;
+    display: flex;
+    justify-content: space-between;
+    margin: 131px 89px 0 89px;
+    .title_arashiyama{
+        padding: 26px 0 45px 0;
+        font-size: 30px;
+        color: #102746;
+        max-width: 357px;
+    }
+    .text_arashiyama{
+        max-width: 519px;
+        font-size: 16px;
+        padding: 0 0 100px 0;
+    }
+    .button_arashiyama{
+        font-size: 16px;
+        color: #006DFE;
+    }
+
+}

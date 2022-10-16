@@ -1,0 +1,73 @@
+.nav {
+  display: grid;
+  grid-template-columns: 630px auto;
+  grid-template-rows: 90px;
+  margin: 20px 0 0 0;
+}
+.nav .nav_site_bar {
+  margin: auto;
+  height: 100%;
+  background-color: rgb(67, 226, 67);
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+  padding: 0 0 100% 20px;
+  display: grid;
+}
+.nav .nav_site_bar li {
+  margin: 30px 70px 0 0;
+  color: white;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 50px;
+  color: white;
+}
+
+.gallery {
+  font-size: 35px;
+  grid-column: 2;
+  color: white;
+}
+
+.gallery_photo {
+  display: grid;
+  grid-template-columns: 210px 155px 155px;
+  grid-template-rows: 150px 100px 100px;
+  grid-column: 2;
+  gap: 30px;
+  margin: 30px 0 0 0;
+}
+.gallery_photo .ze {
+  height: 100%;
+  width: 100%;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gallery_photo .castle1 {
+  height: 100%;
+  width: 100%;
+}
+.gallery_photo .castle2 {
+  height: 100%;
+  width: 100%;
+}
+.gallery_photo .castle3 {
+  height: 100%;
+  width: 100%;
+}
+.gallery_photo .castle4 {
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(123, 27, 27, 0.623);
+  margin: 65px 0 0 0;
+}
+
+/*# sourceMappingURL=nav.css.map */
