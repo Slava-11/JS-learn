@@ -1,0 +1,67 @@
+.header{
+     
+    background: url('../img/image.png') 0 0  round no-repeat;
+ 
+ 
+}
+.container{
+    background: linear-gradient(#35426700,#151824);
+ 
+
+     min-height: 922px;
+    .top-line{
+        min-width: 1060px;
+        padding: 56px 186px 0 191px;
+        height: 31px;
+        display: flex;
+        justify-content: space-between;
+        .odigo{
+            color:white;
+            font-size: 31px;
+        }
+        .menu_items{
+            font-size: 18px;
+            color: white;
+            .menu_name{
+                float: left;
+                margin: 17px 0 0 82px;
+            }
+
+        }
+    }
+
+}
+.container_text{
+    .header_title{
+        max-width: 619px;
+        font-size: 50px;
+        color: white;
+        margin: 233px 0 0 191px;
+    }
+    .header_text{
+        max-width: 546px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 22px 0 0 191px;
+        color: white;
+         
+    }
+}
+.header_buttons{
+    margin: 59px 0 0 191px;
+    max-width: 885px;
+    display: flex;
+    justify-content: space-between;
+    .radio_button{
+        color: white;
+        font-size: 18px;
+        border-bottom: 3px solid white;
+    }
+ 
+    .search_button{
+        padding: 15px 39px 14px 39px;
+        background-color: #1B7DFF;
+        font-size: 24px;
+        color: white;
+    }
+}
