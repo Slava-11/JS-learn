@@ -1,4 +1,7 @@
-body{
-        background-color: #F2F2F2;
-        font-family: 'Lato', sans-serif;
+@import "./var.scss";
+body {
+  background: {
+    color: $BackgroundBodyColor;
+  }
+  font-family: "Lato", sans-serif;
 }

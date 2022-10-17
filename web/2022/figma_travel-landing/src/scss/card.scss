@@ -1,36 +1,68 @@
-.card_container{
-    min-width: 1262px;
-    min-height: 655px;
-    background-color: #FFFFFF;
-    margin: -153px 89px 0 89px;
-    .card_title{
-        padding: 93px 0 0 99px;
-        font-size: 35px;
-        font-weight: 500px;
-        }
-        .card_column{
-            max-width: 317px;
-            min-height: 287px;
-        }
-        .card_column_text_title{
-            font-size: 18px;
-            margin: 26px 0 0 0;
-        }
-        .card_column_text_text{
-            font-size: 16px;
-            margin: 26px 0 0 0;
-        }
-        .card_column_text_button{
-            color: #006DFE;
-            font-size: 16px;
-            margin: 39px 0 0 0;
-        }
-
+@import "./var.scss";
+.card__container {
+  min-width: 1262px;
+  min-height: 655px;
+  background: {
+    color: $WhiteColor;
+  }
+  margin: {
+    top: -153px;
+    left: 89px;
+    right: 89px;
+    bottom: 0px;
+  }
+  .card__title {
+    padding: {
+      top: 93px;
+      left: 99px;
+      right: 0px;
+      bottom: 0px;
+    }
+    font-size: 35px;
+    font-weight: 500px;
+  }
+  .card__column {
+    max-width: 317px;
+    min-height: 287px;
+  }
+  .card__column-title {
+    font-size: 18px;
+    margin: {
+      top: 37px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+  .card__column-text {
+    font-size: 16px;
+    margin: {
+      top: 26px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+  .card__column-button {
+    color: $MainButtonColor;
+    font-size: 16px;
+    margin: {
+      top: 39px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
 }
-.columns{
-    max-width: 1062px;
-    max-height: 288px;
-    display: flex;
-    justify-content: space-between;
-    margin: 120px 100px 0 100px;
+.columns {
+  max-width: 1062px;
+  max-height: 288px;
+  display: flex;
+  justify-content: space-between;
+  margin: {
+    top: 120px;
+    left: 100px;
+    right: 100px;
+    bottom: 0px;
+  }
 }

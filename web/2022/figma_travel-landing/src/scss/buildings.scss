@@ -1,0 +1,75 @@
+@import "./var.scss";
+.building__section-tottori {
+  min-width: 1271px;
+  min-height: 354px;
+  margin: {
+    top: 131px;
+    left: 89px;
+    right: 89px;
+    bottom: 0px;
+  }
+  display: flex;
+  justify-content: space-between;
+  .building__tottori-title {
+    padding: {
+      top: 26px;
+      left: 0px;
+      right: 0px;
+      bottom: 85px;
+    }
+    font-size: 30px;
+    color: $MainColor;
+  }
+  .building__tottori-text {
+    max-width: 519px;
+    font-size: 16px;
+    padding: {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 58px;
+    }
+  }
+  .building__tottori-button {
+    font-size: 16px;
+    color: $MainButtonColor;
+  }
+}
+
+.building__section-arashiyama {
+  min-width: 1271px;
+  min-height: 354px;
+  display: flex;
+  justify-content: space-between;
+  margin: {
+    top: 131px;
+    left: 89px;
+    right: 89px;
+    bottom: 0px;
+  }
+  .building__arashiyama-title {
+    padding: {
+      top: 26px;
+      left: 0px;
+      right: 0px;
+      bottom: 45px;
+    }
+    font-size: 30px;
+    color: $MainColor;
+    max-width: 357px;
+  }
+  .building__arashiyama-text {
+    max-width: 519px;
+    font-size: 16px;
+    padding: {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 100px;
+    }
+  }
+  .building__arashiyama-button {
+    font-size: 16px;
+    color: $MainButtonColor;
+  }
+}

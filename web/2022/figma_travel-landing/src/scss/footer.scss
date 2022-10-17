@@ -1,45 +1,87 @@
-.img_footer{
-    background: url('../img/footer.png') 00/100% no-repeat;
- 
+@import "./var.scss";
+.footer__picture {
+  background: {
+    image: url("../img/footer.jpg");
+    position: 0 0;
+    size: 100%;
+    repeat: no-repeat;
+  }
+  .footer__picture-background {
+    margin: {
+      top: 144px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+    min-height: 629px;
+    background-color: $BackgroundColor;
+  }
+}
 
-}
-.img_footer_background{
-    margin: 144px 0 0 0;
-    min-height: 609px;
-    background-color: #15182466;
-}
-.about_the_company{
+.footer__information {
+  background-color: $BackgroundColorFooter;
+  max-width: 100%;
+  height: 370px;
+  .footer__information-company {
     display: grid;
     grid-template-columns: 720px 240px 240px 240px;
     grid-template-rows: 370px;
-}
-.column_locations{
-    font-size: 50px;
-}
-.logotype{
-    font-size: 50px;
-    color: white;
-    margin: 0px auto;
-    padding: 160px 0 0 0;
-}
-.additional_information{
-    background-color: #0E1D28;
-    max-width: 100%;
-    height: 370px;
- 
-     ul{
-        padding: 160px 0 0 0;
-     }
-    .li_text{
-        color: white;
-        font-size: 16px;
-        margin: 3px 0 0 0;
+    .footer__information-logotype {
+      font-size: 50px;
+      color: $WhiteColor;
+      margin: 0px auto;
+      padding: {
+        top: 160px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+      }
     }
-    .li_title{
-        color: white;
-        font-size: 18px;
-        margin: 0 0 4px 0;
+  }
 
+  .footer__column-company {
+    padding: {
+      top: 160px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
     }
+  }
+  .footer__column-locations {
+    padding: {
+      top: 160px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+  .footer__column-media {
+    padding: {
+      top: 160px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+  .footer__column-text {
+    color: $WhiteColor;
+    font-size: 16px;
+    margin: {
+      top: 3px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
 
+  .footer__column-title {
+    color: $WhiteColor;
+    font-size: 18px;
+    margin: {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 4px;
+    }
+  }
 }
