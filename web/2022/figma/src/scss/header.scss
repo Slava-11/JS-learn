@@ -1,0 +1,103 @@
+@import "./var.scss";
+.section__top-line {
+  min-height: 80px;
+  background-color: $MainColor;
+}
+.section__container-line {
+  max-width: 274px;
+  max-height: 66px;
+  margin: 0px auto;
+  padding: {
+    top: 17px;
+    bottom: 7px;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__menu {
+  min-height: 40px;
+  min-width: 40px;
+  background-color: $WhiteColor;
+  border-radius: 3px;
+  .section__menu-wands {
+    margin: {
+      top: 15px;
+    }
+  }
+  .wand {
+    width: 12px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: $MainColor;
+    border-radius: 2px;
+
+    margin: {
+      top: 2px;
+    }
+  }
+}
+
+.section__background {
+  background: {
+    image: url("../img/earth.jpg");
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  }
+}
+.section__background-background {
+  min-height: 193px;
+  background: {
+    color: #21212180;
+    size: contain;
+  }
+  .section__background-title {
+    font-size: 28px;
+    color: $WhiteColor;
+    padding: {
+      top: 36px;
+    }
+    text-align: center;
+
+    max-width: 150px;
+    margin: 0px auto;
+  }
+}
+.section__background-wand {
+  margin: 0 auto;
+  max-width: 60px;
+  min-height: 6px;
+  background-color: $WandColor;
+  margin: {
+    top: 20px;
+  }
+}
+.section__background-button {
+  font-size: 18px;
+  color: $WhiteColor;
+  text-align: center;
+  max-width: 200px;
+  margin: 0px auto;
+  margin: {
+    top: 30px;
+  }
+  padding: {
+    top: 16px;
+    bottom: 16px;
+    left: 45px;
+    right: 45px;
+  }
+  background-color: $MainColor;
+}
+.section__background-text {
+  font-size: 18px;
+  color: $WhiteColor;
+  text-align: center;
+  max-width: 590px;
+  margin: 0px auto;
+  margin: {
+    top: 25px;
+  }
+}
